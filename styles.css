@@ -1,29 +1,33 @@
-h1{color: brown;
+h1
+{color: brown;
 font-size: 24pt;}
 .navbar-light .navbar-brand {color: brown;}
+
 .jumbotron {
 background-image: url(trufflepig.jpeg);
 background-attachment: fixed;
-background-size: cover;
+background-size: cover;}
 
-}
-
-h2{font-size: 16pt;
+h2
+{font-size: 16pt;
 color: brown;
 margin-left: 1rem;}
 
 
+/* adjusting the text inside the jumbotron */
+.display-4
+{font-size: 50pt; font-weight: bold;}
 
-.display-4{font-size: 50pt; font-weight: bold;
-}
+/* adjusting the size of the picture on the recipes page to make it fit better */
+#davidtruff
+{width: 500px;}
 
-#davidtruff{width: 500px;
-}
-
+/* recoloring the school names on the index page to add color */
 
 #princetonbullet{color: orange;}
 #kelloggbullet{color: purple;}
 
+/* took from Bootstrap */
 .footer {
     position: fixed;
     bottom: 0;
@@ -37,4 +41,5 @@ margin-left: 1rem;}
 
 body {margin-bottom: 50px;}
 
+/* uses a Google font for my own recipe */
 #recipe1 {font-family: 'Shadows Into Light', cursive;}
